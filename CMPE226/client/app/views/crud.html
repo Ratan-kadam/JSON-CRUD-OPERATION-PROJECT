@@ -1,0 +1,28 @@
+
+<ng-include src="'../views/Template/READJSON.html'"> </ng-include>
+
+<main id="main">
+
+  <div class="container">
+
+    <div class="row topspace">
+
+      <article class="col-sm-4 col-md-4  col-lg-4" >
+
+      <ng-include src="'../views/Template/CRUDLEFT.html'"> </ng-include>
+      <!-- /Sidebar -->
+      </article>
+
+      <article class="col-sm-8 col-md-8  col-lg-8 maincontent side2">
+
+         <!--   Below element is fetched from JS and all dynamically added element from JS are attached to the below element -->
+         <!-- and every time parent is updated to attached new UL and backtracking logic is handled in controller -->
+        <div id="f1">
+        </div>
+        </article>
+    </div>
+    </div>
+  </main>
+
+
+

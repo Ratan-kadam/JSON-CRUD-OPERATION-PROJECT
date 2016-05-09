@@ -1,0 +1,15 @@
+# robotstxt.org
+
+User-agent: *
+
+
+ var newE= angular.element('<div> this is new div </div>');
+    var parent = angular.element('f1');
+    parent.append(newE);
+    $compile(newE)($scope);
+   console.log(angular.element('f1'));
+    //var catch= angular.element(document).find('#f1');
+   //catch = angular.element("#f1");
+    $scope.mydiv = angular.element("<div> fff </div>");
+    var catch1 = $document.find('#f1');
+    catch1.append($scope.mydiv);
